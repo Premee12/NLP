@@ -1,7 +1,4 @@
-This dataset was created for the Paper 'From Group to Individual Labels using Deep Features', Kotzias et. al,. KDD 2015
-Please cite the paper if you want to use it :)
-
-It contains sentences labelled with positive or negative sentiment, extracted from reviews of products, movies, and restaurants
+The datasets contains sentences labelled with positive or negative sentiment, extracted from reviews of products, movies, and restaurants
 
 =======
 Format:
