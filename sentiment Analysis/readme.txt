@@ -1,20 +1,19 @@
-The datasets contains sentences labelled with positive or negative sentiment, extracted from reviews of products, movies, and restaurants
+There are two sentiment analysis initiatives inside this project. In the first portion, a dataset without any labels was subjected to Textblob sentiment analysis to identify tweets that were positive, negative, or neutral.
+
+The phrases in the second section are taken from positive or negative reviews of goods, movies, and restaurants.
 
 =======
 Format:
 =======
 sentence \t score \n
 
+The score ranges from 0 (negative) to 1 (positive).
 
-=======
-Details:
-=======
-Score is either 1 (for positive) or 0 (for negative)	
-The sentences come from three different websites/fields:
+The phrases come from three different sources: yelp.com, amazon.com, and imdb.com.
 
-imdb.com
-amazon.com
-yelp.com
+There are 500 positive and 500 negative sentences for each website, chosen at random from bigger databases of reviews. In order to avoid selecting any neutral sentences, only sentences that had a clear positive or negative connotation were chosen. 
+These sentences were then concatenated to form one dataset.
+
 
 For each website, there exist 500 positive and 500 negative sentences. Those were selected randomly for larger datasets of reviews. 
 We attempted to select sentences that have a clearly positive or negative connotaton, the goal was for no neutral sentences to be selected.
